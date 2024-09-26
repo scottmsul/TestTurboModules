@@ -20,10 +20,14 @@ const App: () => JSX.Element = () => {
       <Button
         title="Compute"
         onPress={async () => {
-          console.log("calculating 3+7");
-          const value = await RTNCalculator?.add(3, 7);
-          console.log("result is: " + value?.toString());
-          setResult(value ?? null);
+          if(RTNCalculator) {
+            console.log("calculating 3+7");
+            const value = await RTNCalculator.add(3, 7);
+            console.log("result is: " + value?.toString());
+            setResult(value ?? null);
+          } else {
+            console.log("module not found");
+          }
         }}
       />
     </SafeAreaView>

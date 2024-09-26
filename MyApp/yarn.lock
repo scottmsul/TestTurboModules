@@ -8211,11 +8211,11 @@ __metadata:
 
 "rtn-calculator@file:../RTNCalculator::locator=MyApp%40workspace%3A.":
   version: 0.0.1
-  resolution: "rtn-calculator@file:../RTNCalculator#../RTNCalculator::hash=b6c0a1&locator=MyApp%40workspace%3A."
+  resolution: "rtn-calculator@file:../RTNCalculator#../RTNCalculator::hash=7790f0&locator=MyApp%40workspace%3A."
   peerDependencies:
     react: "*"
     react-native: "*"
-  checksum: d923fe0578672ccb5c99d200c8147a2bbc4c2596e12bf49a3c64d8e47a0e4e0c06c6e8a15c0dec5964603230c12bc0411cba904b678798c75ae103b375648ed2
+  checksum: 8142f2dad60f07129f646b17a76b70acbb435aa37dd36ac3d41524c8a95f9b0b0e467833f2d191fa0cb7e4853188127bf7d9b7e7fbb122694f5c4cc63d1e4b72
   languageName: node
   linkType: hard
 
